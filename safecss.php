@@ -635,12 +635,13 @@ function safecss_admin() {
 	if ( $custom_content_width <= 0 && !empty($GLOBALS['content_width']) )
 		$custom_content_width = intval($GLOBALS['content_width']);
 ?>
-<div id="poststuff" class="metabox-holder<?php echo 2 == $screen_layout_columns ? ' has-right-sidebar' : ''; ?>">
 <div class="wrap">
+    <div id="icon-themes" class="icon32"><br></div>
 <h2><?php _e( 'CSS Stylesheet Editor', 'safecss' ); ?></h2>
+<div id="poststuff" class="metabox-holder<?php echo 2 == $screen_layout_columns ? ' has-right-sidebar' : ''; ?>">
 <form id="safecssform" action="" method="post">
 	<p><textarea id="safecss" name="safecss"><?php echo str_replace('</textarea>', '&lt;/textarea&gt', safecss()); ?></textarea></p>
-	<p class="custom-css-help"><?php _e('For help with CSS try <a href="http://www.w3schools.com/css/default.asp">W3Schools</a>, <a href="http://alistapart.com/">A List Apart</a>, and our own <a href="http://support.wordpress.com/editing-css/">CSS documentation</a> and <a href="http://en.forums.wordpress.com/forum/css-customization">CSS Forum</a>.', 'safecss'); ?></p>
+	<p class="custom-css-help"><?php _e('For help with CSS try <a href="http://www.w3schools.com/css/default.asp">W3Schools</a>, <a href="http://alistapart.com/">A List Apart</a>. For help with this plugin, please see WordPress.com help pages <a href="http://support.wordpress.com/editing-css/">CSS documentation</a> and <a href="http://en.forums.wordpress.com/forum/css-customization">CSS Forum</a>.', 'safecss'); ?></p>
 	<h4><?php _e("Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?", 'safecss'); ?></h4>
 	<p><label><input type="radio" name="add_to_existing" value="true" <?php if ( get_option( 'safecss_add') != 'no' ) echo ' checked="checked"'; ?> /> <?php printf( __( 'Add this to the %s theme\'s CSS stylesheet (<a href="%s">view original stylesheet</a>)', 'safecss' ), get_current_theme(), get_bloginfo( 'stylesheet_directory' ) . '/style.css' . '?minify=false' ); ?></label><br />
 	<label><input type="radio" name="add_to_existing" value="false" <?php if ( get_option( 'safecss_add') == 'no' ) echo ' checked="checked"'; ?> /> <?php _e( 'Start from scratch and just use this ', 'safecss' ); ?></label>
