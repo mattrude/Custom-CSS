@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Custom CSS package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 04:45:05+0000\n"
+"PO-Revision-Date: 2010-12-04 04:46:40+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,31 +12,31 @@ msgstr ""
 
 #: safecss.php:643
 msgid "For help with CSS try "
-msgstr ""
+msgstr "ヘルプしようとCSSを使用した"
 
 #: safecss.php:643
 msgid "W3Schools"
-msgstr ""
+msgstr "W3Schoolsの"
 
 #: safecss.php:643
 msgid "A List Apart"
-msgstr ""
+msgstr "リストとは別に"
 
 #: safecss.php:643
 msgid ". For help with this plugin, please see WordPress.com help pages "
-msgstr ""
+msgstr "。これは、プラグインのヘルプについては、WordPress.comは、ヘルプページを参照してください。"
 
 #: safecss.php:643
 msgid "CSS documentation"
-msgstr ""
+msgstr "ドキュメントのCSS"
 
 #: safecss.php:643
 msgid " and "
-msgstr ""
+msgstr "と"
 
 #: safecss.php:643
 msgid "CSS Forum"
-msgstr ""
+msgstr "CSSのフォーラム"
 
 #: safecss.php:345
 msgid ""
@@ -98,7 +98,7 @@ msgstr "あなたは、あなたの現在のテーマのスタイルシートを
 
 #: safecss.php:645
 msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
-msgstr "％に追加この（テーマのCSSスタイルシートをよ<a href=\"%s\">スタイルシートを参照元</a> ）"
+msgstr "％s に追加この（テーマのCSSスタイルシートをよ<a href=\"%s\">スタイルシートを参照元</a> ）"
 
 #: safecss.php:646
 msgid "Start from scratch and just use this "
