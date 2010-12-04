@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Custom CSS package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 04:45:09+0000\n"
+"PO-Revision-Date: 2010-12-04 04:50:27+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,120 +10,82 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Custom CSS\n"
 
-#: safecss.php:643
+#: safecss.php:642
 msgid "For help with CSS try "
 msgstr ""
 
-#: safecss.php:643
+#: safecss.php:642
 msgid "W3Schools"
 msgstr ""
 
-#: safecss.php:643
+#: safecss.php:642
 msgid "A List Apart"
 msgstr ""
 
-#: safecss.php:643
+#: safecss.php:642
 msgid ". For help with this plugin, please see WordPress.com help pages "
 msgstr ""
 
-#: safecss.php:643
+#: safecss.php:642
 msgid "CSS documentation"
 msgstr ""
 
-#: safecss.php:643
+#: safecss.php:642
 msgid " and "
 msgstr ""
 
-#: safecss.php:643
+#: safecss.php:642
 msgid "CSS Forum"
 msgstr ""
 
-#: safecss.php:345
-msgid ""
-"/* Welcome to Custom CSS!\n"
-"\n"
-"If you are familiar with CSS or you have a stylesheet ready to paste, you may delete these comments and get started.\n"
-"\n"
-"CSS (Cascading Style Sheets) is a kind of code that tells the browser how to render a web page. Here's an example:\n"
-"\n"
-"img { border: 1px solid red; }\n"
-"\n"
-"That line basically means \"give images a red border one pixel thick.\"\n"
-"\n"
-"CSS is not very hard to learn. If you already know a little HTML it will be fun to move things around on the web page by changing your stylesheet. There are many free references to help you get started. You can find helpful links, starter stylesheets and knowledgable people in the forum:\n"
-"http://wordpress.com/forums/forum.php?id=3\n"
-"\n"
-"We hope you enjoy developing your custom CSS. Here are a few things to keep in mind:\n"
-"\n"
-"You can not edit the stylesheets of your theme. Your stylesheet will be loaded after the theme stylesheets, which means that your rules can take precedence and override the theme CSS rules. The Sandbox theme is recommended for those who would prefer to start from scratch.\n"
-"\n"
-"CSS comments will be stripped from your stylesheet. */\n"
-"\n"
-"/* This is a comment. Comments begin with /* and end with */\n"
-"\n"
-"/*\n"
-"Things we strip out include:\n"
-" * HTML code\n"
-" * @import rules\n"
-" * expressions\n"
-" * invalid and unsafe code\n"
-" * URLs not using the http: protocol\n"
-"\n"
-"Things we encourage include:\n"
-" * @media blocks!\n"
-" * sharing your CSS!\n"
-" * testing in several browsers!\n"
-" * helping others in the forum!\n"
-msgstr ""
-
-#: safecss.php:469
+#: safecss.php:468
 msgid "Preview: changes must be saved or they will be lost"
 msgstr ""
 
-#: safecss.php:495
+#: safecss.php:494
 msgid "Edit CSS"
 msgstr ""
 
-#: safecss.php:628
+#: safecss.php:627
 msgid "Stylesheet saved."
 msgstr ""
 
-#: safecss.php:639
+#: safecss.php:638
 msgid "CSS Stylesheet Editor"
 msgstr ""
 
-#: safecss.php:644
+#: safecss.php:643
 msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
 msgstr ""
 
-#: safecss.php:645
+#: safecss.php:644
 msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
 msgstr ""
 
-#: safecss.php:646
+#: safecss.php:645
 msgid "Start from scratch and just use this "
 msgstr ""
 
-#: safecss.php:649
+#: safecss.php:648
 msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
 msgstr ""
 
-#: safecss.php:650
+#: safecss.php:649
 msgid "Limit width to"
 msgstr ""
 
-#: safecss.php:651
+#: safecss.php:650
 msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
 msgstr ""
 
-#: safecss.php:656
+#: safecss.php:655
 msgid "Preview"
 msgstr ""
 
-#: safecss.php:658
+#: safecss.php:657
 msgid "Save Stylesheet &raquo;"
 msgstr ""
 
-#: safecss.php:678
+#: safecss.php:677
 msgid "CSS Revisions"
 msgstr ""
