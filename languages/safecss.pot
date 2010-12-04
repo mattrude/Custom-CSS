@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: safecss 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-12-03 22:32-0600\n"
+"POT-Creation-Date: 2010-12-03 22:44-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,12 +80,31 @@ msgid "CSS Stylesheet Editor"
 msgstr ""
 
 #: safecss.php:643
-msgid ""
-"For help with CSS try <a href=\"http://www.w3schools.com/css/default.asp"
-"\">W3Schools</a>, <a href=\"http://alistapart.com/\">A List Apart</a>. For "
-"help with this plugin, please see WordPress.com help pages <a href=\"http://"
-"support.wordpress.com/editing-css/\">CSS documentation</a> and <a href="
-"\"http://en.forums.wordpress.com/forum/css-customization\">CSS Forum</a>."
+msgid "For help with CSS try "
+msgstr ""
+
+#: safecss.php:643
+msgid "W3Schools"
+msgstr ""
+
+#: safecss.php:643
+msgid "A List Apart"
+msgstr ""
+
+#: safecss.php:643
+msgid ". For help with this plugin, please see WordPress.com help pages "
+msgstr ""
+
+#: safecss.php:643
+msgid "CSS documentation"
+msgstr ""
+
+#: safecss.php:643
+msgid " and "
+msgstr ""
+
+#: safecss.php:643
+msgid "CSS Forum"
 msgstr ""
 
 #: safecss.php:644
