@@ -11,12 +11,11 @@ Author URI: http://automattic.com/
 /**
  * Add local textdomain
  */
-add_action( 'init', 'safecss_load_plugin_textdomain' );
+define('SAFECSS_TEXTDOMAIN', 'safecss');
 
-function safecss_load_plugin_textdomain() {
-	load_plugin_textdomain( 'safecss', false, 'safecss/languages' );
+if (function_exists('load_plugin_textdomain')) {
+        load_plugin_textdomain(SAFECSS_TEXTDOMAIN, false, '/var/www/therudes.com/wp-content/plugins/safecss/languages' );
 }
-
 
 /**
  * Migration routine for moving safecss from wp_options to wp_posts to support revisions
@@ -343,7 +342,7 @@ function safecss() {
 	$css = str_replace( array( '\\\00BB \\\0020', '\0BB \020', '0BB 020' ), '\00BB \0020', $css );
 	
 	if ( empty( $css ) ) {
-		$css = _e( '/* Welcome to Custom CSS!
+		$css = '/* Welcome to Custom CSS!
 
 If you are familiar with CSS or you have a stylesheet ready to paste, you may delete these comments and get started.
 
@@ -376,8 +375,7 @@ Things we encourage include:
  * @media blocks!
  * sharing your CSS!
  * testing in several browsers!
- * helping others in the forum!
-', 'safecss' );
+ * helping others in the forum!';
 $css .= "\n*/";
 	}
 
@@ -467,7 +465,7 @@ function safecss_preview_flag() {
 	if ( is_admin() )
 		return;
 
-	$message = wp_specialchars( __( 'Preview: changes must be saved or they will be lost', 'safecss' ), 'single' );
+	$message = wp_specialchars( __( 'Preview: changes must be saved or they will be lost', SAFECSS_TEXTDOMAIN ), 'single' );
 	return "
 <script type='text/javascript'>
 // <![CDATA[
@@ -637,26 +635,26 @@ function safecss_admin() {
 ?>
 <div class="wrap">
     <div id="icon-themes" class="icon32"><br></div>
-<h2><?php _e( 'CSS Stylesheet Editor', 'safecss' ); ?></h2>
+<h2><?php _e( 'CSS Stylesheet Editor', SAFECSS_TEXTDOMAIN ); ?></h2>
 <div id="poststuff" class="metabox-holder<?php echo 2 == $screen_layout_columns ? ' has-right-sidebar' : ''; ?>">
 <form id="safecssform" action="" method="post">
 	<p><textarea id="safecss" name="safecss"><?php echo str_replace('</textarea>', '&lt;/textarea&gt', safecss()); ?></textarea></p>
-	<p class="custom-css-help"><?php _e('For help with CSS try <a href="http://www.w3schools.com/css/default.asp">W3Schools</a>, <a href="http://alistapart.com/">A List Apart</a>. For help with this plugin, please see WordPress.com help pages <a href="http://support.wordpress.com/editing-css/">CSS documentation</a> and <a href="http://en.forums.wordpress.com/forum/css-customization">CSS Forum</a>.', 'safecss'); ?></p>
-	<h4><?php _e("Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?", 'safecss'); ?></h4>
-	<p><label><input type="radio" name="add_to_existing" value="true" <?php if ( get_option( 'safecss_add') != 'no' ) echo ' checked="checked"'; ?> /> <?php printf( __( 'Add this to the %s theme\'s CSS stylesheet (<a href="%s">view original stylesheet</a>)', 'safecss' ), get_current_theme(), get_bloginfo( 'stylesheet_directory' ) . '/style.css' . '?minify=false' ); ?></label><br />
-	<label><input type="radio" name="add_to_existing" value="false" <?php if ( get_option( 'safecss_add') == 'no' ) echo ' checked="checked"'; ?> /> <?php _e( 'Start from scratch and just use this ', 'safecss' ); ?></label>
+	<p class="custom-css-help"><?php _e('For help with CSS try ', SAFECSS_TEXTDOMAIN); ?><a href="http://www.w3schools.com/css/default.asp"><?php _e('W3Schools', SAFECSS_TEXTDOMAIN); ?></a>, <a href="http://alistapart.com/"><?php _e('A List Apart', SAFECSS_TEXTDOMAIN); ?></a><?php _e('. For help with this plugin, please see WordPress.com help pages ', SAFECSS_TEXTDOMAIN); ?><a href="http://support.wordpress.com/editing-css/"><?php _e('CSS documentation', SAFECSS_TEXTDOMAIN); ?></a><?php _e(' and ', SAFECSS_TEXTDOMAIN); ?><a href="http://en.forums.wordpress.com/forum/css-customization"><?php _e('CSS Forum', SAFECSS_TEXTDOMAIN); ?></a>.</p>
+	<h4><?php _e("Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?", SAFECSS_TEXTDOMAIN); ?></h4>
+	<p><label><input type="radio" name="add_to_existing" value="true" <?php if ( get_option( 'safecss_add') != 'no' ) echo ' checked="checked"'; ?> /> <?php printf( __( 'Add this to the %s theme\'s CSS stylesheet (<a href="%s">view original stylesheet</a>)', SAFECSS_TEXTDOMAIN ), get_current_theme(), get_bloginfo( 'stylesheet_directory' ) . '/style.css' . '?minify=false' ); ?></label><br />
+	<label><input type="radio" name="add_to_existing" value="false" <?php if ( get_option( 'safecss_add') == 'no' ) echo ' checked="checked"'; ?> /> <?php _e( 'Start from scratch and just use this ', SAFECSS_TEXTDOMAIN ); ?></label>
 	</p>
 
-	<h4> <?php _e( "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below.", 'safecss' ); ?></h4>
-	<p class="custom_content_width"><label for="custom_content_width"><?php _e( 'Limit width to', 'safecss' ); ?></label>
-	<input type="text" name="custom_content_width" id="custom_content_width" value="<?php echo $custom_content_width; ?>" size=5 /> <?php printf( __( 'pixels for videos, full size images, and other shortcodes. (<a href="%s">more info</a>)', 'safecss' ), 'http://support.wordpress.com/editing-css/#limited-width'); ?></p>
+	<h4> <?php _e( "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below.", SAFECSS_TEXTDOMAIN ); ?></h4>
+	<p class="custom_content_width"><label for="custom_content_width"><?php _e( 'Limit width to', SAFECSS_TEXTDOMAIN ); ?></label>
+	<input type="text" name="custom_content_width" id="custom_content_width" value="<?php echo $custom_content_width; ?>" size=5 /> <?php printf( __( 'pixels for videos, full size images, and other shortcodes. (<a href="%s">more info</a>)', SAFECSS_TEXTDOMAIN ), 'http://support.wordpress.com/editing-css/#limited-width'); ?></p>
 	<p class="submit">
 		<input type="hidden" name="action" value="save" />
 		<?php wp_nonce_field('safecss') ?>
 
-		<input type="button" class="button" id="preview" name="preview" value="<?php _e('Preview', 'safecss') ?>" />
+		<input type="button" class="button" id="preview" name="preview" value="<?php _e('Preview', SAFECSS_TEXTDOMAIN) ?>" />
 <?php if ( !safecss_is_freetrial() ) : ?>
-		<input type="submit" class="button" id="save" name="save" value="<?php _e('Save Stylesheet &raquo;', 'safecss') ?>" />
+		<input type="submit" class="button" id="save" name="save" value="<?php _e('Save Stylesheet &raquo;', SAFECSS_TEXTDOMAIN) ?>" />
 <?php endif; ?>
 		<?php wp_nonce_field( 'closedpostboxes', 'closedpostboxesnonce', false ); ?>
 	</p>
