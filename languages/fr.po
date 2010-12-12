@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Custom CSS package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 06:15:30+0000\n"
+"PO-Revision-Date: 2010-12-12 22:16:38+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,80 +12,80 @@ msgstr ""
 
 #: safecss.php:642
 msgid "For help with CSS try "
-msgstr ""
+msgstr "Pour vous aider à essayer de CSS"
 
 #: safecss.php:642
 msgid "W3Schools"
-msgstr ""
+msgstr "W3Schools"
 
 #: safecss.php:642
 msgid "A List Apart"
-msgstr ""
+msgstr "A List Apart"
 
 #: safecss.php:642
 msgid ". For help with this plugin, please see WordPress.com help pages "
-msgstr ""
+msgstr ". Pour vous aider avec ce plugin, s&#39;il vous plaît voir WordPress.com pages d&#39;aide"
 
 #: safecss.php:642
 msgid "CSS documentation"
-msgstr ""
+msgstr "CSS documentation"
 
 #: safecss.php:642
 msgid " and "
-msgstr ""
+msgstr "et"
 
 #: safecss.php:642
 msgid "CSS Forum"
-msgstr ""
+msgstr "CSS Forum"
 
 #: safecss.php:468
 msgid "Preview: changes must be saved or they will be lost"
-msgstr ""
+msgstr "Extrait: les modifications doivent être enregistrées ou ils seront perdus"
 
 #: safecss.php:494
 msgid "Edit CSS"
-msgstr ""
+msgstr "Modifier le CSS"
 
 #: safecss.php:627
 msgid "Stylesheet saved."
-msgstr ""
+msgstr "Stylesheet sauvé."
 
 #: safecss.php:638
 msgid "CSS Stylesheet Editor"
-msgstr ""
+msgstr "Sous la direction de la feuille de style CSS"
 
 #: safecss.php:643
 msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
-msgstr ""
+msgstr "Voulez-vous apporter des modifications à la feuille de style de votre thème actuel, ou voulez-vous recommencer à zéro?"
 
 #: safecss.php:644
 msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
-msgstr ""
+msgstr "Ajouter à la feuille de style CSS%s, le thème ( <a href=\"%s\">Voir la feuille de style d&#39;origine</a> )"
 
 #: safecss.php:645
 msgid "Start from scratch and just use this "
-msgstr ""
+msgstr "Partir de zéro et il suffit d&#39;utiliser cette"
 
 #: safecss.php:648
 msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
-msgstr ""
+msgstr "Si vous modifiez la largeur de votre colonne de contenu principale, assurez-vous vos fichiers multimédia en forme. Entrez la largeur maximale pour les fichiers multimédia dans votre nouvelle feuille CSS ci-dessous."
 
 #: safecss.php:649
 msgid "Limit width to"
-msgstr ""
+msgstr "Limiter à la largeur"
 
 #: safecss.php:650
 msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
-msgstr ""
+msgstr "pixels pour des vidéos, des images en taille réelle, et d&#39;autres codes courts. ( <a href=\"%s\">plus d&#39;infos</a> )"
 
 #: safecss.php:655
 msgid "Preview"
-msgstr ""
+msgstr "Extrait"
 
 #: safecss.php:657
 msgid "Save Stylesheet &raquo;"
-msgstr ""
+msgstr "»Stylesheet Enregistrer"
 
 #: safecss.php:677
 msgid "CSS Revisions"
-msgstr ""
+msgstr "Révisions CSS"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Custom CSS package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-12-04 06:15:33+0000\n"
+"PO-Revision-Date: 2010-12-12 22:16:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,80 +12,80 @@ msgstr ""
 
 #: safecss.php:642
 msgid "For help with CSS try "
-msgstr ""
+msgstr "도움이 필요한 경우 시도 CSS로"
 
 #: safecss.php:642
 msgid "W3Schools"
-msgstr ""
+msgstr "W3Schools"
 
 #: safecss.php:642
 msgid "A List Apart"
-msgstr ""
+msgstr "목록 빼고"
 
 #: safecss.php:642
 msgid ". For help with this plugin, please see WordPress.com help pages "
-msgstr ""
+msgstr ". 이 플러그인에 대한 도움말 WordPress.com 페이지를 참조하시기 바랍니다"
 
 #: safecss.php:642
 msgid "CSS documentation"
-msgstr ""
+msgstr "설명서를 CSS를"
 
 #: safecss.php:642
 msgid " and "
-msgstr ""
+msgstr "및"
 
 #: safecss.php:642
 msgid "CSS Forum"
-msgstr ""
+msgstr "CSS를 포럼"
 
 #: safecss.php:468
 msgid "Preview: changes must be saved or they will be lost"
-msgstr ""
+msgstr "시사 : 시간을 변경하거나 저장해야합니다 그들은 손실됩니다"
 
 #: safecss.php:494
 msgid "Edit CSS"
-msgstr ""
+msgstr "CSS를 수정"
 
 #: safecss.php:627
 msgid "Stylesheet saved."
-msgstr ""
+msgstr "스타일 시트가 저장되었습니다."
 
 #: safecss.php:638
 msgid "CSS Stylesheet Editor"
-msgstr ""
+msgstr "CSS는 스타일 시트 편집기"
 
 #: safecss.php:643
 msgid "Do you want to make changes to your current theme's stylesheet, or do you want to start from scratch?"
-msgstr ""
+msgstr "당신이 당신의 현재 테마의 스타일 시트를 변경하고자하거나 처음부터 시작할까요나요?"
 
 #: safecss.php:644
 msgid "Add this to the %s theme's CSS stylesheet (<a href=\"%s\">view original stylesheet</a>)"
-msgstr ""
+msgstr "%에 추가이 (테마의 CSS 스타일 시트를 s의 <a href=\"%s\">스타일 시트를 보려면 원본</a> )"
 
 #: safecss.php:645
 msgid "Start from scratch and just use this "
-msgstr ""
+msgstr "그리고 처음부터 다시 시작 그냥 이걸 사용"
 
 #: safecss.php:648
 msgid "If you change the width of your main content column, make sure your media files fit. Enter the maximum width for media files in your new CSS below."
-msgstr ""
+msgstr "귀하의 메인 컨텐츠로 열 너비를 변경하면 미디어 파일 맞게 있는지 확인하십시오. 미디어 파일의 최대 너비를 입력하여 새 아래에 CSS를."
 
 #: safecss.php:649
 msgid "Limit width to"
-msgstr ""
+msgstr "제한 너비"
 
 #: safecss.php:650
 msgid "pixels for videos, full size images, and other shortcodes. (<a href=\"%s\">more info</a>)"
-msgstr ""
+msgstr "비디오, 전체 크기의 이미지 및 기타 단축을위한 픽셀. ( <a href=\"%s\">추가 정보</a> )"
 
 #: safecss.php:655
 msgid "Preview"
-msgstr ""
+msgstr "미리보기"
 
 #: safecss.php:657
 msgid "Save Stylesheet &raquo;"
-msgstr ""
+msgstr "저장 스타일 시트»"
 
 #: safecss.php:677
 msgid "CSS Revisions"
-msgstr ""
+msgstr "CSS를 수정"
